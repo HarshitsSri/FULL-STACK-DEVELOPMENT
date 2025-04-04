@@ -1,0 +1,49 @@
+/**********These are tag selectors***********/
+body{
+    background-color: #F2EFE7;
+}
+img{
+   
+    background-color: goldenrod;
+}
+
+hr{
+    background-color: white;
+    border-top: 7px dotted grey;
+    color: gray;
+    width :6%;
+    height: 6%;
+
+
+}
+h1{
+    color: #604652;
+}
+/*When we have to add different styling to same type of tags or elements but ,for this we need different 
+types of selector depending upon the requirements*/
+
+/*Class selector*/
+.skill{
+    color:red;
+}
+.web{
+    color: cadetblue;
+}
+/* so we are using "." operator to access our class selectors*/
+/*ID selector*/
+/*Id's are unique*/
+/*you can specify different classes to the same tag or element
+EXAMPLE:
+    class="chess round"
+then you can style chess and round classes differently hence a tag can have multiple classes but only one ID
+and also that one ID is unique and only that element can be styled with the help that id*/
+#chess{
+    background-color: black;
+    color: white;
+    width: 5%;
+}
+.round{
+    border-radius: 160px;
+}
+
+
