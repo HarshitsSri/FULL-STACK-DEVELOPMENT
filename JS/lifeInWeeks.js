@@ -1,0 +1,1 @@
+var wt=prompt("Enter your wt")
