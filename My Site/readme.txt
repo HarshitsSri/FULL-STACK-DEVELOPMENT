@@ -30,3 +30,9 @@ Day 4
                        :learned about css sizing how it works and what is difference between em,%,rem,px,100%==16px,and 16px==1rem
                        
                        :learned about css float and clear and how to use them to make your website more appealing and next to god level
+15-5-25
+    -started javascript -Till now basics of  javascript has been knowed 
+                         about variables datatype their naming console info ,control flow if else etc.
+                         also learned about '==' and '===' difference :
+                                    == is used for comparing two condition and it only compares value.
+                                    === is used to check whether the values compared are same in terms of value and datatype
