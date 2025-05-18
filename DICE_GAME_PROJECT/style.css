@@ -1,0 +1,29 @@
+body{
+    background-color:lightskyblue;
+    
+}
+table{
+    text-align: center;
+    
+    margin: 50px auto 50px auto;
+    border-spacing: 1rem;
+}
+.btn{
+    font-size: 4rem;
+    text-align: center;
+}
+img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50px;
+    
+}
+
+h1{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4.5rem;
+    text-align: center;
+    margin: 30px auto 30px auto;
+    
+}

@@ -74,5 +74,26 @@ Day 4
                      which is inside a list just write path with space , also if we have to select any element of different of its variation we can also do that
                      example-
                       document.querrySelector(ul li a) -> selects a in li of ul
-                      document.querrySelector(li.items) -> li jiska class item ho
+                      document.querrySelector(li.items) -> li jiska class item ho.
+
+                    document.querrySelector().classList; this defines how many classes are of an object,we can .add(),.remove(),.toggle()some classes
+                    this is used when we have a class already styled so we add this class using js and hence class attributes are applied
+                    we can also remove some classes of an object to show diff at some click or a particular behaivor on website
+                    toggle is used to add and remove class alternatively when an object is clicked or on any following event .
+                    
+                    TEXT CHANGE:
+                        There are many ways of changing the text of an object like h1 li or anything.
+                        1. .innerHTML=""; this returns everthing that is inside the h1 if in h1 the text is surrounded by strong tag or any other tag
+                                          then it will also show that but it benefits because we can use different tags while we change the text
+                                          ex - innerHTML="<strong>harshit</strong>" this will make harshit strong 
+
+                        2. .textContent; this only returns text if it is surrounded by any another it will ommit it if we will change text using this 
+                                         the tag used will be removed and also you can add tags as in innerHTML
+                        3. .innerText ; works same as .textContent.
+                    ATTRIBUTES:;
+                        We can also change the attributes of the tag like href ,input values
+                        use .attributes to know how many attributes are of the tag or selected object
+                        use .getattribute("")-to know the value of particular attribute 
+                        use .setattribute("","") - use to change the value of a certain attribute.
+                        
                         
