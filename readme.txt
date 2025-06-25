@@ -95,5 +95,14 @@ Day 4
                         use .attributes to know how many attributes are of the tag or selected object
                         use .getattribute("")-to know the value of particular attribute 
                         use .setattribute("","") - use to change the value of a certain attribute.
-                        
+17-06-2025         
+
+                    LETS START JQUERRY
+                    What is JQuerry?
+                    JQuerry is a library used to for shortening the code of js for example in js if we have to select an
+                    element then in js we have to use the document.querrySelector("h1") rather than just using a JQuerry or $ sign for here 
+                    u have to use $("h1") and also if we have to locate we can use $("#div-1 h2")-to select the h2 of div-1
+
+                    to incoporate jquerry in your website use cdn of jquerry similar to bootstrap.
+                   
                         
