@@ -1,1 +1,1 @@
-alert("hi")
+$("body").css("color","red")  
