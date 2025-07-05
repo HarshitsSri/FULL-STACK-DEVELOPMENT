@@ -101,8 +101,34 @@ Day 4
                     What is JQuerry?
                     JQuerry is a library used to for shortening the code of js for example in js if we have to select an
                     element then in js we have to use the document.querrySelector("h1") rather than just using a JQuerry or $ sign for here 
-                    u have to use $("h1") and also if we have to locate we can use $("#div-1 h2")-to select the h2 of div-1
+                    u have to use $("h1") and also if we have to locate we can use $("#div-1 h2")-to select the h2 of div-1 id.
 
                     to incoporate jquerry in your website use cdn of jquerry similar to bootstrap.
-                   
+1/7/2025
+                    After a long break lets start again!!
+                    so we were learning about jquerry and got now about something ,we can use jquerry to change css like ,
+                    $("h1").css("color","red"); this is used to set the value of the h1,to get the value remove the red section and comma
+
+                    you can also add a class ,remove a class and check whether a class is present in an element
+                    $("h1").addClass("big-h1 font-change"),we can add multiple classes by just adding it to by spaces
+                    $("h1").removeClass("big-h1 font-change") - to remove a class
+                    $("h1").hasClass("big-h1")-to check whether the h1 contains the class big-h1.
+
+                    we have learnt about .text("...."); changes the text inside any element
+
+                    we also learnt about attributs and how to change its attribute
+                    use:- .attr("src","www.google.com")
+                    if you have to get the value only use first paranthesis and you have to set the value of any attribute use both parenthesis
+                    separated by comma.
+                    now use of .before(),.after(),.append,.prepend,.remove 
+                    difference between append and after is append is use to add some thing after the text/content of an element and after is used to 
+                    to it after that element
+                    Animation:
+                        .hide,show
+                        .slideUp,slideDown
+                        toggle,slideToggle
+                        animate({
+
+                        }):which only changes the property whose values is in numbers like opacity width etc cant changes things which are not numeric
+                        like color.
                         
