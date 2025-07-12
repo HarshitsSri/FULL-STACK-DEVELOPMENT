@@ -131,4 +131,44 @@ Day 4
 
                         }):which only changes the property whose values is in numbers like opacity width etc cant changes things which are not numeric
                         like color.
+
+                
+                    ✅ Projects for practice:
+
+                            Weather App (3rd-party API use)
+
+                            Notes App (CRUD + MongoDB)  
+
+                            Auth System (Login/Signup with JWT)
+
+                            Blog App (Posts, Comments, Users)
+
+                            Expense Tracker
+
+                            Chat App (socket.io)
+
+12/7/2025
+                    jquerry acha khasa hogya hai ab node pe move karte hai toh node me sabse phale yhi sikhaya ki node kya hota hai aur kuch ka server kaise banate hai
+                    local server aur isko express ke sath learn kiya kaise ek server kaam karta hai kaise.
+                    NPM modules kaise install karte aur kaise require karte hai aur toh aur native modules like http ,fs kya hai 
+                    REPL(read evalution print loop) ye ek editor type ka chiz hai jab cmd ya bash me node likhenge toh ek > karke symbol aega 
+                    usme nodejs ki commands likh skte hai
+                    aur toh aur .exit ya do baar ctrl + c dabao exit karne ke liye
+
+                    Express ek framework hai 
+                    
+                    lets understand what is expressjs it is a framework used to build web application on nodejs ,this framework helps in making of web
+                    servers in less code and more efficient way ,you can use express just use npm i express after you have setup your project by npm init
+                     
+                     incoporate express by   --> const express =require('express')
+                     and now make a app --> const app=express();
+
+
+                     routes like -> '/' aur "/about" ye routes and you can use 
+                     app.get('/',function(req,res){
+                        res.send("hiii")
+                     })
+                     is tarah hum ek route ko explain karte hai 
+                     kae routes ko hum define kar skte hai jaise app.post bhi use karskte hai aur kya js use hoga ye bhi bata skte hai
+                     
                         

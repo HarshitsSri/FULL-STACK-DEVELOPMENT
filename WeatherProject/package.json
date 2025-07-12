@@ -1,0 +1,14 @@
+{
+  "name": "weatherproject",
+  "version": "1.0.0",
+  "description": "This is a weather project that is made for learning and better understanding of api use and how to do it on local server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "harshit srivastava",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
