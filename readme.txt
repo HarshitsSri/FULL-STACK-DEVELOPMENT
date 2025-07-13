@@ -170,5 +170,7 @@ Day 4
                      })
                      is tarah hum ek route ko explain karte hai 
                      kae routes ko hum define kar skte hai jaise app.post bhi use karskte hai aur kya js use hoga ye bhi bata skte hai
+                     har route pe 
                      
+
                         

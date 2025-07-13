@@ -9,6 +9,8 @@
   "author": "harshit srivastava",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^2.2.0",
+    "dotenv": "^17.2.0",
     "express": "^5.1.0"
   }
 }
