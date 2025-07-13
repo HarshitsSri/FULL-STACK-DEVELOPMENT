@@ -22,7 +22,7 @@ app.get("/",function(req,res){
 app.post("/",function(req,res){
     var location=req.body.location
     
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}&units=metric`;
+    const url = "https://api.openweathermap.org/data/2.5/weather?q="+location+"&appid="+apiKey+"&units=metric";
     https.get(url,function(response){
        
         response.on("data",function(data){
